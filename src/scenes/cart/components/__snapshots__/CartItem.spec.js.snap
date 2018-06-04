@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component should render successfully 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <CartItem
+    decreaseItem={[MockFunction]}
+    destroyItem={[MockFunction]}
+    increaseItem={[MockFunction]}
+    itemsLeft={0}
+    name="1"
+    price={0}
+    quantity={0}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "decreaseItem": [MockFunction],
+      "destroyItem": [MockFunction],
+      "increaseItem": [MockFunction],
+      "itemsLeft": 0,
+      "name": "1",
+      "price": 0,
+      "quantity": 0,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="css-1xp1ku7-cart-item-root"
+      >
+        <img
+          alt="1"
+          class="css-ibsqo1-image"
+        />
+        <strong>
+          1
+        </strong>
+        <span>
+          Left: 
+          0
+        </span>
+        <span>
+          $
+          0
+        </span>
+        <div
+          class="css-xffwwn-actions"
+        >
+          <button
+            class="css-invcd1-action-button"
+            disabled=""
+          >
+            -
+          </button>
+          <span>
+            No: 
+            0
+          </span>
+          <button
+            class="css-invcd1-action-button"
+            disabled=""
+          >
+            +
+          </button>
+        </div>
+        <button
+          class="css-5csd1k-remove-button"
+        >
+          <svg
+            class="css-1d6oeul-remove-icon"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+            />
+          </svg>
+        </button>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="1"
+            className="css-ibsqo1-image"
+          />,
+          <strong>
+            1
+          </strong>,
+          <span>
+            Left: 
+            0
+          </span>,
+          <span>
+            $
+            0
+          </span>,
+          <div
+            className="css-xffwwn-actions"
+          >
+            <button
+              className="css-invcd1-action-button"
+              disabled={true}
+              onClick={[MockFunction]}
+            >
+              -
+            </button>
+            <span>
+              No: 
+              0
+            </span>
+            <button
+              className="css-invcd1-action-button"
+              disabled={true}
+              onClick={[MockFunction]}
+            >
+              +
+            </button>
+          </div>,
+          <button
+            className="css-5csd1k-remove-button"
+            onClick={[MockFunction]}
+          >
+            <svg
+              className="css-1d6oeul-remove-icon"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+              />
+            </svg>
+          </button>,
+        ],
+        "className": "css-1xp1ku7-cart-item-root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <img
+            alt="1"
+            class="css-ibsqo1-image"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "1",
+            "className": "css-ibsqo1-image",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "img",
+        },
+        Object {
+          "instance": <strong>
+            1
+          </strong>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "1",
+          },
+          "ref": null,
+          "rendered": Array [
+            "1",
+          ],
+          "type": "strong",
+        },
+        Object {
+          "instance": <span>
+            Left: 
+            0
+          </span>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Left: ",
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Left: ",
+            "0",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": <span>
+            $
+            0
+          </span>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "$",
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "$",
+            "0",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": <div
+            class="css-xffwwn-actions"
+          >
+            <button
+              class="css-invcd1-action-button"
+              disabled=""
+            >
+              -
+            </button>
+            <span>
+              No: 
+              0
+            </span>
+            <button
+              class="css-invcd1-action-button"
+              disabled=""
+            >
+              +
+            </button>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="css-invcd1-action-button"
+                disabled={true}
+                onClick={[MockFunction]}
+              >
+                -
+              </button>,
+              <span>
+                No: 
+                0
+              </span>,
+              <button
+                className="css-invcd1-action-button"
+                disabled={true}
+                onClick={[MockFunction]}
+              >
+                +
+              </button>,
+            ],
+            "className": "css-xffwwn-actions",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="css-invcd1-action-button"
+                disabled=""
+              >
+                -
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-",
+                "className": "css-invcd1-action-button",
+                "disabled": true,
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Array [
+                "-",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <span>
+                No: 
+                0
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "No: ",
+                  0,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "No: ",
+                "0",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": <button
+                class="css-invcd1-action-button"
+                disabled=""
+              >
+                +
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+",
+                "className": "css-invcd1-action-button",
+                "disabled": true,
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Array [
+                "+",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <button
+            class="css-5csd1k-remove-button"
+          >
+            <svg
+              class="css-1d6oeul-remove-icon"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+              />
+            </svg>
+          </button>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="css-1d6oeul-remove-icon"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+              />
+            </svg>,
+            "className": "css-5csd1k-remove-button",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <svg
+                class="css-1d6oeul-remove-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                />
+              </svg>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <path
+                  d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                />,
+                "className": "css-1d6oeul-remove-icon",
+                "viewBox": "0 0 20 20",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <path
+                    d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "d": "M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "path",
+                },
+              ],
+              "type": "svg",
+            },
+          ],
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "decreaseItem": [MockFunction],
+        "destroyItem": [MockFunction],
+        "increaseItem": [MockFunction],
+        "itemsLeft": 0,
+        "name": "1",
+        "price": 0,
+        "quantity": 0,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="css-1xp1ku7-cart-item-root"
+        >
+          <img
+            alt="1"
+            class="css-ibsqo1-image"
+          />
+          <strong>
+            1
+          </strong>
+          <span>
+            Left: 
+            0
+          </span>
+          <span>
+            $
+            0
+          </span>
+          <div
+            class="css-xffwwn-actions"
+          >
+            <button
+              class="css-invcd1-action-button"
+              disabled=""
+            >
+              -
+            </button>
+            <span>
+              No: 
+              0
+            </span>
+            <button
+              class="css-invcd1-action-button"
+              disabled=""
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="css-5csd1k-remove-button"
+          >
+            <svg
+              class="css-1d6oeul-remove-icon"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+              />
+            </svg>
+          </button>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="1"
+              className="css-ibsqo1-image"
+            />,
+            <strong>
+              1
+            </strong>,
+            <span>
+              Left: 
+              0
+            </span>,
+            <span>
+              $
+              0
+            </span>,
+            <div
+              className="css-xffwwn-actions"
+            >
+              <button
+                className="css-invcd1-action-button"
+                disabled={true}
+                onClick={[MockFunction]}
+              >
+                -
+              </button>
+              <span>
+                No: 
+                0
+              </span>
+              <button
+                className="css-invcd1-action-button"
+                disabled={true}
+                onClick={[MockFunction]}
+              >
+                +
+              </button>
+            </div>,
+            <button
+              className="css-5csd1k-remove-button"
+              onClick={[MockFunction]}
+            >
+              <svg
+                className="css-1d6oeul-remove-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                />
+              </svg>
+            </button>,
+          ],
+          "className": "css-1xp1ku7-cart-item-root",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <img
+              alt="1"
+              class="css-ibsqo1-image"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "1",
+              "className": "css-ibsqo1-image",
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "img",
+          },
+          Object {
+            "instance": <strong>
+              1
+            </strong>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "1",
+            },
+            "ref": null,
+            "rendered": Array [
+              "1",
+            ],
+            "type": "strong",
+          },
+          Object {
+            "instance": <span>
+              Left: 
+              0
+            </span>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Left: ",
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Left: ",
+              "0",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": <span>
+              $
+              0
+            </span>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "$",
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "$",
+              "0",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": <div
+              class="css-xffwwn-actions"
+            >
+              <button
+                class="css-invcd1-action-button"
+                disabled=""
+              >
+                -
+              </button>
+              <span>
+                No: 
+                0
+              </span>
+              <button
+                class="css-invcd1-action-button"
+                disabled=""
+              >
+                +
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="css-invcd1-action-button"
+                  disabled={true}
+                  onClick={[MockFunction]}
+                >
+                  -
+                </button>,
+                <span>
+                  No: 
+                  0
+                </span>,
+                <button
+                  className="css-invcd1-action-button"
+                  disabled={true}
+                  onClick={[MockFunction]}
+                >
+                  +
+                </button>,
+              ],
+              "className": "css-xffwwn-actions",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="css-invcd1-action-button"
+                  disabled=""
+                >
+                  -
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "-",
+                  "className": "css-invcd1-action-button",
+                  "disabled": true,
+                  "onClick": [MockFunction],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "-",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <span>
+                  No: 
+                  0
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "No: ",
+                    0,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "No: ",
+                  "0",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <button
+                  class="css-invcd1-action-button"
+                  disabled=""
+                >
+                  +
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "+",
+                  "className": "css-invcd1-action-button",
+                  "disabled": true,
+                  "onClick": [MockFunction],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "+",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <button
+              class="css-5csd1k-remove-button"
+            >
+              <svg
+                class="css-1d6oeul-remove-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                />
+              </svg>
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <svg
+                className="css-1d6oeul-remove-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                />
+              </svg>,
+              "className": "css-5csd1k-remove-button",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <svg
+                  class="css-1d6oeul-remove-icon"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                  />
+                </svg>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <path
+                    d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                  />,
+                  "className": "css-1d6oeul-remove-icon",
+                  "viewBox": "0 0 20 20",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <path
+                      d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "d": "M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "path",
+                  },
+                ],
+                "type": "svg",
+              },
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,756 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component should render successfully 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <Product
+    name="Product"
+    onClick={[MockFunction]}
+    price={0}
+    unitsInStock={0}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "name": "Product",
+      "onClick": [MockFunction],
+      "price": 0,
+      "unitsInStock": 0,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="css-16a2rgp-product-root"
+      >
+        <div
+          class="css-1rhu85x-image"
+        />
+        <div
+          class="css-3s4mfs-details"
+        >
+          <span
+            class="css-ryieqs-name"
+          >
+            Product
+          </span>
+          <span
+            class="css-1bk0x0y-items-left"
+          >
+            0
+             item
+            
+             left
+          </span>
+          <span
+            class="css-156zn4r-price"
+          >
+            $
+            0
+          </span>
+        </div>
+        <button
+          class="css-1wtfgww-button"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="css-12sbw6q-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <g>
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="css-1rhu85x-image"
+          />,
+          <div
+            className="css-3s4mfs-details"
+          >
+            <span
+              className="css-ryieqs-name"
+            >
+              Product
+            </span>
+            <span
+              className="css-1bk0x0y-items-left"
+            >
+              0
+               item
+              
+               left
+            </span>
+            <span
+              className="css-156zn4r-price"
+            >
+              $
+              0
+            </span>
+          </div>,
+          <button
+            className="css-1wtfgww-button"
+            disabled={true}
+            onClick={[MockFunction]}
+          >
+            <svg
+              aria-hidden="true"
+              className="css-12sbw6q-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </g>
+            </svg>
+          </button>,
+        ],
+        "className": "css-16a2rgp-product-root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div
+            class="css-1rhu85x-image"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "css-1rhu85x-image",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="css-3s4mfs-details"
+          >
+            <span
+              class="css-ryieqs-name"
+            >
+              Product
+            </span>
+            <span
+              class="css-1bk0x0y-items-left"
+            >
+              0
+               item
+              
+               left
+            </span>
+            <span
+              class="css-156zn4r-price"
+            >
+              $
+              0
+            </span>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="css-ryieqs-name"
+              >
+                Product
+              </span>,
+              <span
+                className="css-1bk0x0y-items-left"
+              >
+                0
+                 item
+                
+                 left
+              </span>,
+              <span
+                className="css-156zn4r-price"
+              >
+                $
+                0
+              </span>,
+            ],
+            "className": "css-3s4mfs-details",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <span
+                class="css-ryieqs-name"
+              >
+                Product
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Product",
+                "className": "css-ryieqs-name",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Product",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": <span
+                class="css-1bk0x0y-items-left"
+              >
+                0
+                 item
+                
+                 left
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  0,
+                  " item",
+                  "",
+                  " left",
+                ],
+                "className": "css-1bk0x0y-items-left",
+              },
+              "ref": null,
+              "rendered": Array [
+                "0",
+                " item",
+                "",
+                " left",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": <span
+                class="css-156zn4r-price"
+              >
+                $
+                0
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "$",
+                  0,
+                ],
+                "className": "css-156zn4r-price",
+              },
+              "ref": null,
+              "rendered": Array [
+                "$",
+                "0",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <button
+            class="css-1wtfgww-button"
+            disabled=""
+          >
+            <svg
+              aria-hidden="true"
+              class="css-12sbw6q-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </g>
+            </svg>
+          </button>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              aria-hidden="true"
+              className="css-12sbw6q-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </g>
+            </svg>,
+            "className": "css-1wtfgww-button",
+            "disabled": true,
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <svg
+                aria-hidden="true"
+                class="css-12sbw6q-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </g>
+              </svg>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "children": <g>
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </g>,
+                "className": "css-12sbw6q-icon",
+                "focusable": "false",
+                "viewBox": "0 0 24 24",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <g>
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </g>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "d": "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "path",
+                    },
+                  ],
+                  "type": "g",
+                },
+              ],
+              "type": "svg",
+            },
+          ],
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "name": "Product",
+        "onClick": [MockFunction],
+        "price": 0,
+        "unitsInStock": 0,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="css-16a2rgp-product-root"
+        >
+          <div
+            class="css-1rhu85x-image"
+          />
+          <div
+            class="css-3s4mfs-details"
+          >
+            <span
+              class="css-ryieqs-name"
+            >
+              Product
+            </span>
+            <span
+              class="css-1bk0x0y-items-left"
+            >
+              0
+               item
+              
+               left
+            </span>
+            <span
+              class="css-156zn4r-price"
+            >
+              $
+              0
+            </span>
+          </div>
+          <button
+            class="css-1wtfgww-button"
+            disabled=""
+          >
+            <svg
+              aria-hidden="true"
+              class="css-12sbw6q-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="css-1rhu85x-image"
+            />,
+            <div
+              className="css-3s4mfs-details"
+            >
+              <span
+                className="css-ryieqs-name"
+              >
+                Product
+              </span>
+              <span
+                className="css-1bk0x0y-items-left"
+              >
+                0
+                 item
+                
+                 left
+              </span>
+              <span
+                className="css-156zn4r-price"
+              >
+                $
+                0
+              </span>
+            </div>,
+            <button
+              className="css-1wtfgww-button"
+              disabled={true}
+              onClick={[MockFunction]}
+            >
+              <svg
+                aria-hidden="true"
+                className="css-12sbw6q-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </g>
+              </svg>
+            </button>,
+          ],
+          "className": "css-16a2rgp-product-root",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div
+              class="css-1rhu85x-image"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "css-1rhu85x-image",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="css-3s4mfs-details"
+            >
+              <span
+                class="css-ryieqs-name"
+              >
+                Product
+              </span>
+              <span
+                class="css-1bk0x0y-items-left"
+              >
+                0
+                 item
+                
+                 left
+              </span>
+              <span
+                class="css-156zn4r-price"
+              >
+                $
+                0
+              </span>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="css-ryieqs-name"
+                >
+                  Product
+                </span>,
+                <span
+                  className="css-1bk0x0y-items-left"
+                >
+                  0
+                   item
+                  
+                   left
+                </span>,
+                <span
+                  className="css-156zn4r-price"
+                >
+                  $
+                  0
+                </span>,
+              ],
+              "className": "css-3s4mfs-details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <span
+                  class="css-ryieqs-name"
+                >
+                  Product
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Product",
+                  "className": "css-ryieqs-name",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Product",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-1bk0x0y-items-left"
+                >
+                  0
+                   item
+                  
+                   left
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    0,
+                    " item",
+                    "",
+                    " left",
+                  ],
+                  "className": "css-1bk0x0y-items-left",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "0",
+                  " item",
+                  "",
+                  " left",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-156zn4r-price"
+                >
+                  $
+                  0
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "$",
+                    0,
+                  ],
+                  "className": "css-156zn4r-price",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "$",
+                  "0",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <button
+              class="css-1wtfgww-button"
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="css-12sbw6q-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </g>
+              </svg>
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <svg
+                aria-hidden="true"
+                className="css-12sbw6q-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </g>
+              </svg>,
+              "className": "css-1wtfgww-button",
+              "disabled": true,
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <svg
+                  aria-hidden="true"
+                  class="css-12sbw6q-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g>
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </g>
+                </svg>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "children": <g>
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </g>,
+                  "className": "css-12sbw6q-icon",
+                  "focusable": "false",
+                  "viewBox": "0 0 24 24",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <g>
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </g>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "d": "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "path",
+                      },
+                    ],
+                    "type": "g",
+                  },
+                ],
+                "type": "svg",
+              },
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
